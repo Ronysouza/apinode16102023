@@ -8,7 +8,7 @@ module.exports = {
 
     getUser: (req, res)=>{
         
-        let json = {error:'teste nova api', result:[]};
+        let json = {error:'novo teste com banco de dados', result:[]};
         
         //let usuarios = await UserService.getUser() 
         
