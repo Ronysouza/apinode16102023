@@ -22,7 +22,22 @@ module.exports = {
 
 
     
- 
+ funcaoGetUse: async(req, res)=>{
+            
+              
+          //let json = await UserService.funcaoGetUser(req, res)
+          //console.log('resultado: ',json)
+       //res.json(json) 
+
+     let users = await user.findAll()
+    
+     res.send(JSON.stringify(users))
+     console.log('result:',JSON.stringify(users)  )
+
+
+
+    }
+
     
 
 
