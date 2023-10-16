@@ -1,5 +1,5 @@
 const UserService = require('../services/UserService')
- //const user = require('../models/User')
+ const user = require('../models/User')
 
 
 
