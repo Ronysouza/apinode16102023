@@ -8,7 +8,7 @@ module.exports = {
 
     getUser: (req, res)=>{
         
-        let json = {error:'rfsdf', result:[]};
+        let json = {error:'teste nova api', result:[]};
         
         //let usuarios = await UserService.getUser() 
         
